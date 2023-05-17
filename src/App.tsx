@@ -1,11 +1,11 @@
-import { useState } from 'react';
+import { Provider } from 'react-redux';
 import viteLogo from 'assets/vite.svg';
 import reactLogo from 'assets/react.svg';
+import { Counter } from 'features/counter';
+import { store } from 'store';
 import 'App.css';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <div>
@@ -18,9 +18,7 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <button type="button" onClick={() => setCount(() => count + 1)}>
-          count is {count}
-        </button>
+        <Counter />
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
@@ -32,4 +30,12 @@ function App() {
   );
 }
 
-export default App;
+function WrappedApp() {
+  return (
+    <Provider store={store}>
+      <App />
+    </Provider>
+  );
+}
+
+export default WrappedApp;

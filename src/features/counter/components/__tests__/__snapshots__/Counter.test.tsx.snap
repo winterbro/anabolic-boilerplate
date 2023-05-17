@@ -1,0 +1,29 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`StyledCounter > should render the styled component correctly 1`] = `
+.c0 {
+  padding: 0.6em 1.2em;
+  margin-bottom: var(--space-xs);
+  font-family: inherit;
+  color: #fff;
+  cursor: pointer;
+  background-color: #1a1a1a;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  -webkit-transition: border - color 0.25s;
+  transition: border - color 0.25s;
+}
+
+.c0:hover {
+  border-color: #646cff;
+}
+
+.c0:focus,
+.c0:focus-visible {
+  outline: 4px auto - webkit - focus - ring - color;
+}
+
+<button
+  className="c0"
+/>
+`;
