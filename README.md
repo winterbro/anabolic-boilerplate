@@ -9,7 +9,25 @@ This project is based on Vite with React, SWC and TypeScript.
 
 ## Development environment
 
-```l
+```bash
 npm install
 npm run dev
+```
+
+## Testing
+```bash
+npm run test
+```
+
+## Linting
+```bash
+# Lint TypeScript
+npm run lint:ts
+
+# Lint style
+npm run lint:css
+
+# Lint / fix both
+npm run lint
+npm run lint:fix
 ```
