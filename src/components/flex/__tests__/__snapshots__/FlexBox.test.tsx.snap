@@ -1,0 +1,35 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`FlexBox > should render the styled component correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: initial;
+  -ms-flex: initial;
+  flex: initial;
+  -webkit-flex-direction: initial;
+  -ms-flex-direction: initial;
+  flex-direction: initial;
+  gap: initial;
+  -webkit-align-items: initial;
+  -webkit-box-align: initial;
+  -ms-flex-align: initial;
+  align-items: initial;
+  -webkit-align-self: initial;
+  -ms-flex-item-align: initial;
+  align-self: initial;
+  -webkit-box-pack: initial;
+  -webkit-justify-content: initial;
+  -ms-flex-pack: initial;
+  justify-content: initial;
+  -webkit-order: initial;
+  -ms-flex-order: initial;
+  order: initial;
+}
+
+<div
+  className="c0"
+/>
+`;
