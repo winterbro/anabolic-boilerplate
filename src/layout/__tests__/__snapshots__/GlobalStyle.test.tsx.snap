@@ -1,0 +1,10 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`GlobalStyle > should have global style 1`] = `
+<head>
+  <style
+    data-styled="active"
+    data-styled-version="5.3.11"
+  />
+</head>
+`;

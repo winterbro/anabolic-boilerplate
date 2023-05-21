@@ -3,6 +3,7 @@ import viteLogo from 'assets/vite.svg';
 import reactLogo from 'assets/react.svg';
 import { Counter } from 'features/counter';
 import { store } from 'store';
+import GlobalStyle from 'layout/GlobalStyle';
 import 'App.css';
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
 function WrappedApp() {
   return (
     <Provider store={store}>
+      <GlobalStyle />
       <App />
     </Provider>
   );
