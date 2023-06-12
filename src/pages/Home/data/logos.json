@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Vite",
+    "url": "https://vitejs.dev/",
+    "image": "src/assets/vite.svg",
+    "color": "#646cff"
+  },
+  {
+    "name": "React",
+    "url": "https://reactjs.org/",
+    "image": "src/assets/react.svg",
+    "color": "#61dafb"
+  },
+  {
+    "name": "TypeScript",
+    "url": "https://www.typescriptlang.org/",
+    "image": "src/assets/typescript.svg",
+    "color": "#007acc"
+  },
+  {
+    "name": "Redux",
+    "url": "https://redux.js.org/",
+    "image": "src/assets/redux.svg",
+    "color": "#764abc"
+  },
+  {
+    "name": "styled-components",
+    "url": "https://styled-components.com/",
+    "image": "src/assets/styled-components.png",
+    "color": "#db7093"
+  },
+  {
+    "name": "Vitest",
+    "url": "https://vitest.dev/",
+    "image": "src/assets/vitest.svg",
+    "color": "#f4c950"
+  },
+  {
+    "name": "Testing Library",
+    "url": "https://testing-library.com/",
+    "image": "src/assets/testing-library.svg",
+    "color": "#c63f36"
+  },
+  {
+    "name": "ESLint",
+    "url": "https://eslint.org/",
+    "image": "src/assets/eslint.svg",
+    "color": "#4733bc"
+  },
+  {
+    "name": "Prettier",
+    "url": "https://prettier.io/",
+    "image": "src/assets/prettier.svg",
+    "color": "#f7b93e"
+  },
+  {
+    "name": "Stylelint",
+    "url": "https://stylelint.io/",
+    "image": "src/assets/stylelint.svg",
+    "color": "#ff7c00"
+  }
+]

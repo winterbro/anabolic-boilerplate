@@ -1,0 +1,17 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`StyledLogo > should render the styled component correctly 1`] = `
+.c0 {
+  height: 4em;
+  margin: 1em;
+}
+
+.c0:hover {
+  -webkit-filter: drop-shadow(0 0 1em #646cffaa);
+  filter: drop-shadow(0 0 1em #646cffaa);
+}
+
+<img
+  className="c0"
+/>
+`;
